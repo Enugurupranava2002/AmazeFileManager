@@ -736,7 +736,6 @@ public class MainFragment extends Fragment
     } else {
       if(getContext() != null) {
         nofilesview.setBackgroundColor(Utils.getColor(getContext(), R.color.holo_dark_background));
-        
       }
       ((TextView) nofilesview.findViewById(R.id.nofiletext)).setTextColor(Color.WHITE);
     }
